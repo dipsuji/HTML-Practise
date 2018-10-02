@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<body style="https://cdn.pixabay.com/photo/2018/01/24/18/05/background-3104413_1280.jpg">
+<head>
+	<link rel="stylesheet" href="S:\HTML-Learn\mywebsite\css\css2.css">
+
+<h2>HTML Links</h2>
+<p><a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a></p>
+
+<p><a href="html_images.asp">HTML Images</a> is a link to a page on this website.</p>
+
+<p><a href="https://www.w3.org/" title="Go to W3Schools HTML section">W3C</a> is a link to a website on the World Wide Web.</p>
+
+<h3>Link as a image</h3>
+<a href="default.asp">
+  <img src=".\img\download.jpg"alt="HTML tutorial" style="width:42px;height:42px;border:0">
+</a>
+<p><a href="#C4">Jump to Chapter 4</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<p>This example uses a full URL to link to a web page:</p>
+<p><a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a></p>
+<h3>External Paths
+External pages can be referenced with a full URL or with a path relative to the current web page.
+</h3>
+<p>This example uses a full URL to link to a web page:</p>
+<p><a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a></p>
+
+<h3>The alt Attribute</h3>
+<p>The alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).</p>
+<img src=".\img\download.jpg" alt="Flowers in Chania" width="460" height="345">
+
+<h2>Images on Another Server</h2>
+
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" style="width:104px;height:142px;">
+
+<h2>Animated Images</h2>
+<p>The GIF standard allows moving images.</p>
+
+<img src="S:\HTML-Learn\MyWebsite\img\cartoon_birds_blue_flying_animation_clipart.gif" alt="Computer man" style="width:48px;height:48px;">
+<h2>Image Maps</h2>
+<p>Click on the ear or  eyes to go to a new page and read more about the topic:</p>
+
+<img src=".\img\download.jpg" alt="Workplace" usemap="#workmap" width="300" height="279">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="ear" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="eyes" href="eyes.htm">
+</map>
+
+<p style="background-image:url('https://cdn.pixabay.com/photo/2018/01/24/18/05/background-3104413_1280.jpg')">
+
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for this paragraph.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behave.</p>
+
+<h2>Basic HTML Table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<h2>Cell that spans two columns</h2>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>sujata</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+  <tr>
+    <td>Dinkar</td>
+    <td>985577854</td>
+    <td>875577855</td>
+  </tr>
+  </table>
+  
+  <h2>Cell that spans two rows</h2>
+<p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+<table id="t01">
+ <caption>House Details</caption>
+   <tr>
+    <th>address:</th>
+    <td>shinkoiwa</td>
+  </tr>
+  <tr>
+    <th rowspan="2">living person:</th>
+    <td>sujata</td>
+  </tr>
+  <tr>
+    <td>Dinkar</td>
+  </tr>
+</table>
+
+<head>
+</body>
+</html>
