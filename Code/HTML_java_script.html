@@ -1,0 +1,45 @@
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+<h3>Use JavaScript to Change Text</h3>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="tchange":</p>
+
+<p id="tchange">Hello JavaScript!</p>
+
+<script>
+document.getElementById("tchange").innerHTML = "WELCOME TO  JAVASCRIPT!";
+</script> 
+
+<h3>JavaScript can change HTML content</h3>
+
+<p>JavaScript can change the content of an HTML element:</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="changecont">This is my first JavaScript.</p>
+
+<script>
+function myFunction() { 
+   document.getElementById("changecont").innerHTML = "WELCOME TO  JAVASCRIPT!";
+}
+</script>
+
+<p id="demo"></p>
+
+<h3>JavaScript can change HTML styles</h4>
+
+<p id="changestyle">JavaScript can change the style of an HTML element.</p>
+
+<script>
+function myTask() {
+    document.getElementById("changestyle").style.fontSize = "25px"; 
+    document.getElementById("changestyle").style.color = "red";
+    document.getElementById("changestyle").style.backgroundColor = "lightblue";        
+}
+</script>
+
+<button type="button" onclick="myTask()">Click Me!</button>

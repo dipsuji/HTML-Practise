@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	/* Style the element with the id "myHeader" */
+	#firstHeader {
+    background-color: #575C12;
+    color: white;
+    padding: 10px;
+    text-align: center;
+} 
+#myHeader {
+    background-color: #E5EB92;
+    color: red;
+    padding: 30px;
+ } 
+	#header{
+		padding: 10px;
+	}
+	
+	
+	/* Style all elements with the class name "city" */
+.city {
+    background-color: lightblue;
+    color: Black;
+    padding: 10px;
+} 
+</style>
+</head>
+<body>
+<!-- A unique element -->
+<h2 id= "firstHeader">The id Attribute</h2>
+<p>Use CSS to style an element with the id "firstHeader" and id "myHeader":</p>
+	
+<h1 id="myHeader">This is Header</h1>
+	
+	<!-- Multiple similar elements -->
+<h2 class="city">Java language</h2>
+<p>Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</p>
+
+<h2 class="city">Phython language</h2>
+<p>Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace.</p>
+
+<h2 class="city">C++ language</h2>
+<p>C++ is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing facilities for low-level memory manipulation.</p>
+	
+	<h2>Using The id Attribute in JavaScript</h2>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+
+<h1 id="header">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<script>
+function displayResult() {
+    document.getElementById("header").innerHTML = "Have a good day sir!";
+}
+</script>
+
+</body>
+</html>
