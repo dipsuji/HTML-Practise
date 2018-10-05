@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #0C6D35;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #107D3E;
+    padding: 7px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>HTML Tutorial</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">HTML Home</a></li>
+      <li><a href="#">HTML Introduction</a></li>
+      <li><a href="#">HTML Basics </a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Introdution-</h1>
+	  <h3>What is HTML?</h3>
+	  <p>HTML is the standard markup language for creating Web pages.</p>
+	  <ul>
+  <li>HTML stands for Hyper Text Markup Language</li>
+  <li>HTML describes the structure of Web pages using markup</li>
+  <li>HTML elements are the building blocks of HTML pages</li>
+  <li>HTML elements are represented by tags</li>
+  <li>HTML elements are the building blocks of HTML pages</li>
+  <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+  <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+</ul>
+.
+
+
+
+
+
+
+
+    <p>"HyperText" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web..</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
