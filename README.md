@@ -10,3 +10,6 @@ Example of List in HTML
 
 Example of Block in HTML
 <img width="960" alt="block-div-span" src="https://user-images.githubusercontent.com/42382193/46416164-f15d9f80-c761-11e8-96aa-48cc93c035ac.png">
+
+Example of Layout - header, section, Nav, Artical, Footer
+<img width="960" alt="html layout" src="https://user-images.githubusercontent.com/42382193/46541988-53e8a400-c8f8-11e8-89c2-dfee007fab75.png">
