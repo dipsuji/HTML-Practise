@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<h2>Setting the Viewport</h2>
+<p>This example does not really do anything, other than showing you how to add the viewport meta element.</p>
+
+	<h2>Responsive Image</h2>
+	<h2>Using the width Property</h2>
+	<p>If the CSS width property is set to 100%, the image will be responsive and scale up and down:</p>
+<p>When the CSS width property is set in a percentage value, the image will scale up and down when resizing the browser window. Resize the browser window to see the effect.</p>
+<img src="./img/girl.jpg" style="width:100%;">
+
+	<h3>Using the max-width Property</h3>
+<p>If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size:</p>
+	<p>Resize the browser window to see the effect.</p>
+
+<img src="./img/girl.jpg" style="max-width:100%;height:auto;">
+
+	<h2>Show Different Images Depending on Browser Width</h2>
+<p>Resize the browser width and the image will change at 600px and 1500px.</p>
++_+++++++++++++++++++++++++++++
+<picture>
+  <source srcset="./img/smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="./img/flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="./img/flowers.jpg">
+  <img src="./img/flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+	<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+<h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div class="left">
+  <p>Left Menu</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+	<h2>Responsive Web Design - Frameworks</h2>
+	<p>There are many existing CSS Frameworks that offer Responsive Design.</p>
+<p>They are free, and easy to use.
+	<h3>Using W3.CSS</h3>
+	<p>A great way to create a responsive design, is to use a responsive style sheet, like W3.CSS</p>
+
+<p>W3.CSS makes it easy to develop sites that look nice at any size; desktop, laptop, tablet, or phone:</p>
+	<div class="w3-container w3-green">
+  <h1>W3Schools Demo</h1>
+  <p>Resize this responsive page!</p>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>It is the most populous city in the United Kingdom,
+    with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+    <p>The Paris area is one of the largest population centers in Europe,
+    with more than 12 million inhabitants.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <p>It is the center of the Greater Tokyo Area,
+    and the most populous metropolitan area in the world.</p>
+  </div>
+</div>
+
+	<h3>Bootstrap</h3>
+<p>Another popular framework is Bootstrap, it uses HTML, CSS and jQuery to make responsive web pages.</p>
+
+</body>
+</html>
